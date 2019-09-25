@@ -1625,16 +1625,21 @@ input, select, textarea {
 	.image {
 		display: inline-block;
 		position: relative;
+		
+		
 	}
 
 		.image img {
 			display: block;
 			width: 100%;
+			
+			
+			
 		}
 
 		.image.fit {
 			display: block;
-			width: 100%;
+			width: 50%;
 		}
 
 		.image.featured {
@@ -1920,11 +1925,18 @@ input, select, textarea {
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
 		}
+		
 
 			.box.style1 h3 {
 				margin-bottom: 0.5em;
 			}
 
+			.box.style2 {
+				height: 100%;
+				object-fit: contain;
+			}
+
+			
 		.box.style2 h3 {
 			margin-bottom: 0.25em;
 		}
@@ -1935,6 +1947,7 @@ input, select, textarea {
 			top: 2em;
 			margin: -4em 0 4em -4em;
 			width: auto;
+			
 		}
 
 /* Icons */
