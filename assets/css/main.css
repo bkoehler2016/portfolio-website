@@ -1809,7 +1809,7 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					background-color: #fff;
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
@@ -1837,7 +1837,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-linkedin-in {
-					background-color: #006599;
+					background-color: lightgray;
 				}
 
 				ul.social li a.fa-tumblr {
@@ -1849,7 +1849,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-github {
-					background-color: #FAFAFA;
+					background-color: lightgray;
 				}
 
 				ul.social li a.fa-rss {
@@ -2328,6 +2328,7 @@ input, select, textarea {
 
 			ul.social {
 				padding: 1em 0.5em 0 0.5em;
+				
 			}
 
 				ul.social li {
@@ -2341,6 +2342,10 @@ input, select, textarea {
 						ul.social li a:before {
 							background-color: transparent !important;
 						}
+						ul.social li a.fa-linkedin-in{
+							background-color: #fff;
+						}
+						
 
 		/* Actions */
 
